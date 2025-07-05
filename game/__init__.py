@@ -12,7 +12,7 @@ class Game:  # use object-oriented
 
     def run(self):
         while True:
-            self.screen.blit(self.img, (100, 100))
+            self.screen.blit(self.img, (100, 100))# put the image in specific place
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
